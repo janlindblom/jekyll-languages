@@ -1,6 +1,6 @@
 # Jekyll::Languages
 
-TODO: Write a gem description
+[![Build Status](https://travis-ci.org/janlindblom/jekyll-languages.png?branch=master)](https://travis-ci.org/janlindblom/jekyll-languages)
 
 ## Installation
 
