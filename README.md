@@ -1,5 +1,6 @@
 # Jekyll::Languages
 
+[![Gem Version](https://badge.fury.io/rb/jekyll-languages.png)](http://badge.fury.io/rb/jekyll-languages)
 [![Build Status](https://travis-ci.org/janlindblom/jekyll-languages.png?branch=master)](https://travis-ci.org/janlindblom/jekyll-languages)
 
 ## Installation
