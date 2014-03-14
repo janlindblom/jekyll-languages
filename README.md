@@ -4,25 +4,40 @@
 
 ## Installation
 
-Add this line to your application's Gemfile:
+### Jekyll plugin system
+
+In your `_config.yml` file, add a new array with the key gems and the values of the gem names of the plugins you’d like to use. In this case:
+
+		gems: [jekyll-languages]
+
+### Via Bundler
+
+Add this line to your application's `Gemfile`:
 
     gem 'jekyll-languages'
 
-And then execute:
+To use it, add the following to _plugins/ext.rb:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-languages
+		require "jekyll/languages"
 
 ## Usage
 
-TODO: Write usage instructions here
+```html
+<p><strong>Categories:</strong> {{ page.categories | sentencize_array }}</p>
+```
+
+### Configuration
+
+This plugin allows for some configuration options, use them in your `_config.yml` to make it actually do something useful:
+
+```yaml
+jekyll_languages:
+	array_connector: "och"
+```
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/jekyll-languages/fork )
+1. Fork it ( http://github.com/janlindblom/jekyll-languages/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

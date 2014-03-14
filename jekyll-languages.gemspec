@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Jekyll::Languages::VERSION
   spec.authors       = ["Jan Lindblom "]
   spec.email         = ["jan@janlindblom.se"]
-  spec.summary       = %q{Gives you some language specific helpers.}
-  spec.description   = %q{Gives you some language specific helpers.}
+  spec.summary       = %q{Gives you some language filters.}
+  spec.description   = %q{Gives you some language filters.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
